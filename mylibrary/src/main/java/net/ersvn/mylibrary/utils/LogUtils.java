@@ -9,4 +9,8 @@ public class LogUtils {
     public static void info(String content){
         Log.i(TAG,content);
     }
+
+    public static void error(String content){
+        Log.e(TAG, "content");
+    }
 }
